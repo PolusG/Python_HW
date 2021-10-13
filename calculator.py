@@ -1,0 +1,18 @@
+def calculator(number1,number2,operator):
+	if operator == "+"
+	print(number1 + number2)
+	elif operator == "-"
+	print(number1 - number2)
+	if operator == "*"
+        print(number1 * number2)
+        elif operator == "/"
+        print(number1 / number2)
+	if operator == "//"
+        print(number1 // number2)
+        elif operator == "**"
+        print(number1 ** number2)
+def parse_input():
+	n1 = flaot(input("Enter the first number:"))
+	n2 = flaot(input("Enter the second number:"))
+	op = input("Enter the operator:")
+	if not (op=="+" or op=="-" or op=="*" or op=="/" or op=="//" or op=="**"):
