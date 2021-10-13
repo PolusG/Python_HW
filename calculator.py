@@ -1,16 +1,19 @@
+from calculator import calculator
 def calculator(number1,number2,operator):
-	if operator == "+"
+	if operator == "+":
 		print(number1 + number2)
-	elif operator == "-"
+	elif operator == "-":
 		print(number1 - number2)
-	if operator == "*"
+	if operator == "*":
         	print(number1 * number2)
-        elif operator == "/"
+        elif operator == "/":
         	print(number1 / number2)
-	if operator == "//"
+	if operator == "//":
         	print(number1 // number2)
-        elif operator == "**"
+        elif operator == "**":
         	print(number1 ** number2)
+	else:
+		return flase
 def parse_input():
 	while True:
 		n1 = flaot(input("Enter the first number:"))
